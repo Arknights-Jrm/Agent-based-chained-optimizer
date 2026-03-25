@@ -1,5 +1,5 @@
 from optimizer.bayesian import BayesianOptimizer
-from interface import external_simulation_interface
+from simulator.interface import external_simulation_interface
 from config import build_param_space
 
 if __name__ == "__main__":

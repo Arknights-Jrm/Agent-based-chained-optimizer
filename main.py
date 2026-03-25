@@ -1,15 +1,15 @@
 from optimizer.bayesian import BayesianOptimizer
-from simulator.interface import external_simulation_interface
+from interface import external_simulation_interface
 from config import build_param_space
 
 if __name__ == "__main__":
-    # 自定义优化维度（示例：只优化3个核心变量）
+    # 自定义优化维度（示例：只优化3个核心变量，其他乌拉拉啦啦啦啦啦啦啦啦啦啦）
     antenna_config = {
         "patch_length": (0.01, 0.1),
         "patch_width": (0.01, 0.1),
         "substrate_height": (0.001, 0.01),
         "feed_position_x": None,  # 不优化
-        "feed_position_y": None   # 不优化
+        "feed_position_y": None   # 不优
     }
 
     # 动态构建参数空间（自适应维度）
